@@ -1,0 +1,15 @@
+current directory: /Users/hoshino/dev/Tutorial/React_Next_youtube_Shin2/blog_api/blog_api/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+/Users/hoshino/.rbenv/versions/3.1.2/bin/ruby -I /Users/hoshino/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20240228-54335-nzfhhc.rb extconf.rb
+creating Makefile
+
+current directory: /Users/hoshino/dev/Tutorial/React_Next_youtube_Shin2/blog_api/blog_api/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /Users/hoshino/dev/Tutorial/React_Next_youtube_Shin2/blog_api/blog_api/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/hoshino/dev/Tutorial/React_Next_youtube_Shin2/blog_api/blog_api/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240228-54335-hakcpf/racc
