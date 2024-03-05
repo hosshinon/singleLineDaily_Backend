@@ -5,6 +5,7 @@ class OptionsRequestController < ApplicationController
 
   def response_preflight_request
     response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Credentials'] = "true"
     response.headers['Access-Control-Allow-Headers'] = ACCESS_CONTROL_ALLOW_HEADERS.join(',')
     response.headers['Access-Control-Allow-Methods'] = ACCESS_CONTROL_ALLOW_METHODS.join(',')
     response.headers['Access-Control-Max-Age'] = ACCESS_CONTROL_MAX_AGE
