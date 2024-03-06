@@ -1,24 +1,22 @@
-# README
+# ひとこと日記
+一言だけ記録できるとてもシンプルな日記アプリです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+サービスのURLはこちらです。
+https://singlelinedaily.vercel.app/
 
-Things you may want to cover:
+# 技術スタック
+フロントエンド
+- Next.js（14.1.0）AppRouter
+- TypeScript
+- Tailwindcss
+  
+バックエンド
+- Ruby on Rails（API）
+- Ruby
 
-* Ruby version
+DB
+- postgre
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+デプロイ
+- vercel（Next.js）
+- Render(Rails)
